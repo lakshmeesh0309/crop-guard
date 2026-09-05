@@ -1,0 +1,39 @@
+# Environment — NEVER commit real .env files
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.h5
+*.pkl
+*.keras
+
+# ML / Dataset (can be large)
+backend/models/
+backend/dataset/
+
+# Kaggle credentials
+.kaggle/kaggle.json
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Uploads (keep folder, ignore files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
